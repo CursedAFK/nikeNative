@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar'
+import React from 'react'
 import { StyleSheet, View } from 'react-native'
-import ProductsScreen from './src/screens/ProductsScreen'
+import Products from '../components/Products'
 
-const App = () => {
+const Home = () => {
 	return (
 		<View style={styles.container}>
-			<ProductsScreen />
-
 			<StatusBar style='auto' />
+
+			<Products />
 		</View>
 	)
 }
@@ -21,4 +22,4 @@ const styles = StyleSheet.create({
 	}
 })
 
-export default App
+export default Home

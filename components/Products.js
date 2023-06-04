@@ -2,7 +2,7 @@ import React from 'react'
 import { FlatList, Image, StyleSheet, View } from 'react-native'
 import products from '../data/products'
 
-const ProductsScreen = () => {
+const Products = () => {
 	return (
 		<FlatList
 			data={products}
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
 	}
 })
 
-export default ProductsScreen
+export default Products
